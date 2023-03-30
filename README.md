@@ -15,6 +15,8 @@ Troy Foote
 * Json
 * JavaScript
 
+### Questions to be answered.
+
 1. Has the game become a higher disposal(faster or slower moving) game since the beginning of the AFL?
 
 2. Has the style of game play reduced or increased the number of goals being scored?
