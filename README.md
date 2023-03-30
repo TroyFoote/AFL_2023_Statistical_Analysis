@@ -3,7 +3,10 @@
 
 ## Project Description
 
-AFL season data from 1990 - 2022. Analuse the changes in disposals across the years as well as goals kicked across the years. 
+AFL season data from 1990 - 2022. Analyse the changes in disposals across the years as well as goals kicked across the years. 
+
+### Team Members
+Troy Foote
 
 ### Requirements
 
