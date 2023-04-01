@@ -17,7 +17,7 @@ Troy Foote
 
 ### Questions to be answered.
 
-1. Has the game become a higher disposal(faster or slower moving) game since the beginning of the AFL?
+1. Has the game become a higher or lower disposal(faster or slower moving) game since the beginning of the AFL Competition in 1990?
 
 2. Has the style of game play reduced or increased the number of goals being scored?
 
