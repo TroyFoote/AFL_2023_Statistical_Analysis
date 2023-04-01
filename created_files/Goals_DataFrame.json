@@ -1,0 +1,342 @@
+[
+    {
+        "Season": 2023,
+        "Games_Played": 18,
+        "Goals": 449,
+        "Ave_goals": 24.944444444444446,
+        "Most Goals": "Nick Larkey",
+        "GK_Team": "NM",
+        "Goals_Kicked": 10,
+        "Percentage_of_goals": 2.2271714922049
+    },
+    {
+        "Season": 2022,
+        "Games_Played": 207,
+        "Goals": 5003,
+        "Ave_goals": 24.16908212560386,
+        "Most Goals": "Tom Hawkins",
+        "GK_Team": "GE",
+        "Goals_Kicked": 67,
+        "Percentage_of_goals": 1.3391964821107336
+    },
+    {
+        "Season": 2021,
+        "Games_Played": 207,
+        "Goals": 4778,
+        "Ave_goals": 23.082125603864736,
+        "Most Goals": "Tom Hawkins",
+        "GK_Team": "GE",
+        "Goals_Kicked": 62,
+        "Percentage_of_goals": 1.297614064462118
+    },
+    {
+        "Season": 2020,
+        "Games_Played": 162,
+        "Goals": 2836,
+        "Ave_goals": 17.506172839506174,
+        "Most Goals": "Tom Hawkins",
+        "GK_Team": "GE",
+        "Goals_Kicked": 49,
+        "Percentage_of_goals": 1.7277856135401977
+    },
+    {
+        "Season": 2019,
+        "Games_Played": 207,
+        "Goals": 4795,
+        "Ave_goals": 23.164251207729468,
+        "Most Goals": "Jeremy Cameron",
+        "GK_Team": "GW",
+        "Goals_Kicked": 76,
+        "Percentage_of_goals": 1.5849843587069865
+    },
+    {
+        "Season": 2018,
+        "Games_Played": 207,
+        "Goals": 4969,
+        "Ave_goals": 24.004830917874397,
+        "Most Goals": "Jack Riewoldt",
+        "GK_Team": "RI",
+        "Goals_Kicked": 70,
+        "Percentage_of_goals": 1.4087341517407932
+    },
+    {
+        "Season": 2017,
+        "Games_Played": 207,
+        "Goals": 5355,
+        "Ave_goals": 25.869565217391305,
+        "Most Goals": "Lance Franklin",
+        "GK_Team": "SY",
+        "Goals_Kicked": 73,
+        "Percentage_of_goals": 1.3632119514472456
+    },
+    {
+        "Season": 2016,
+        "Games_Played": 207,
+        "Goals": 5336,
+        "Ave_goals": 25.777777777777782,
+        "Most Goals": "Josh Kennedy",
+        "GK_Team": "WC",
+        "Goals_Kicked": 82,
+        "Percentage_of_goals": 1.5367316341829085
+    },
+    {
+        "Season": 2015,
+        "Games_Played": 206,
+        "Goals": 5176,
+        "Ave_goals": 25.12621359223301,
+        "Most Goals": "Josh Kennedy",
+        "GK_Team": "WC",
+        "Goals_Kicked": 80,
+        "Percentage_of_goals": 1.545595054095827
+    },
+    {
+        "Season": 2014,
+        "Games_Played": 207,
+        "Goals": 5208,
+        "Ave_goals": 25.159420289855074,
+        "Most Goals": "Lance Franklin",
+        "GK_Team": "SY",
+        "Goals_Kicked": 79,
+        "Percentage_of_goals": 1.5168970814132103
+    },
+    {
+        "Season": 2013,
+        "Games_Played": 207,
+        "Goals": 5561,
+        "Ave_goals": 26.86473429951691,
+        "Most Goals": "Jarryd Roughead",
+        "GK_Team": "HW",
+        "Goals_Kicked": 72,
+        "Percentage_of_goals": 1.294731163459809
+    },
+    {
+        "Season": 2012,
+        "Games_Played": 207,
+        "Goals": 5518,
+        "Ave_goals": 26.657004830917874,
+        "Most Goals": "Matthew Pavlich",
+        "GK_Team": "FR",
+        "Goals_Kicked": 69,
+        "Percentage_of_goals": 1.250453062703878
+    },
+    {
+        "Season": 2011,
+        "Games_Played": 196,
+        "Goals": 5285,
+        "Ave_goals": 26.964285714285715,
+        "Most Goals": "Lance Franklin",
+        "GK_Team": "HW",
+        "Goals_Kicked": 82,
+        "Percentage_of_goals": 1.5515610217596971
+    },
+    {
+        "Season": 2010,
+        "Games_Played": 186,
+        "Goals": 4856,
+        "Ave_goals": 26.10752688172043,
+        "Most Goals": "Barry Hall",
+        "GK_Team": "WB",
+        "Goals_Kicked": 80,
+        "Percentage_of_goals": 1.6474464579901154
+    },
+    {
+        "Season": 2009,
+        "Games_Played": 185,
+        "Goals": 4913,
+        "Ave_goals": 26.556756756756755,
+        "Most Goals": "Brendan Fevola",
+        "GK_Team": "CA",
+        "Goals_Kicked": 89,
+        "Percentage_of_goals": 1.811520455933238
+    },
+    {
+        "Season": 2008,
+        "Games_Played": 185,
+        "Goals": 5238,
+        "Ave_goals": 28.313513513513517,
+        "Most Goals": "Lance Franklin",
+        "GK_Team": "HW",
+        "Goals_Kicked": 113,
+        "Percentage_of_goals": 2.1573119511263843
+    },
+    {
+        "Season": 2007,
+        "Games_Played": 185,
+        "Goals": 5107,
+        "Ave_goals": 27.605405405405413,
+        "Most Goals": "Jonathan Brown",
+        "GK_Team": "BL",
+        "Goals_Kicked": 77,
+        "Percentage_of_goals": 1.5077344820834149
+    },
+    {
+        "Season": 2006,
+        "Games_Played": 185,
+        "Goals": 4959,
+        "Ave_goals": 26.805405405405413,
+        "Most Goals": "Brendan Fevola",
+        "GK_Team": "CA",
+        "Goals_Kicked": 84,
+        "Percentage_of_goals": 1.693889897156685
+    },
+    {
+        "Season": 2005,
+        "Games_Played": 185,
+        "Goals": 5118,
+        "Ave_goals": 27.664864864864864,
+        "Most Goals": "Barry Hall",
+        "GK_Team": "SY",
+        "Goals_Kicked": 80,
+        "Percentage_of_goals": 1.5631105900742477
+    },
+    {
+        "Season": 2004,
+        "Games_Played": 185,
+        "Goals": 5012,
+        "Ave_goals": 27.09189189189189,
+        "Most Goals": "Fraser Gehrig",
+        "GK_Team": "SK",
+        "Goals_Kicked": 103,
+        "Percentage_of_goals": 2.0550678371907423
+    },
+    {
+        "Season": 2003,
+        "Games_Played": 185,
+        "Goals": 5101,
+        "Ave_goals": 27.57297297297297,
+        "Most Goals": "Matthew Lloyd",
+        "GK_Team": "ES",
+        "Goals_Kicked": 93,
+        "Percentage_of_goals": 1.8231719270731233
+    },
+    {
+        "Season": 2002,
+        "Games_Played": 185,
+        "Goals": 5121,
+        "Ave_goals": 27.681081081081082,
+        "Most Goals": "David Neitz",
+        "GK_Team": "ME",
+        "Goals_Kicked": 82,
+        "Percentage_of_goals": 1.6012497559070495
+    },
+    {
+        "Season": 2001,
+        "Games_Played": 185,
+        "Goals": 5258,
+        "Ave_goals": 28.42162162162162,
+        "Most Goals": "Matthew Lloyd",
+        "GK_Team": "ES",
+        "Goals_Kicked": 105,
+        "Percentage_of_goals": 1.99695701787752
+    },
+    {
+        "Season": 2000,
+        "Games_Played": 185,
+        "Goals": 5626,
+        "Ave_goals": 30.41081081081081,
+        "Most Goals": "Matthew Lloyd",
+        "GK_Team": "ES",
+        "Goals_Kicked": 109,
+        "Percentage_of_goals": 1.9374333451830783
+    },
+    {
+        "Season": 1999,
+        "Games_Played": 185,
+        "Goals": 5143,
+        "Ave_goals": 27.8,
+        "Most Goals": "Scott Cummings",
+        "GK_Team": "WC",
+        "Goals_Kicked": 95,
+        "Percentage_of_goals": 1.847170911919113
+    },
+    {
+        "Season": 1998,
+        "Games_Played": 185,
+        "Goals": 5012,
+        "Ave_goals": 27.09189189189189,
+        "Most Goals": "Tony Lockett",
+        "GK_Team": "SY",
+        "Goals_Kicked": 109,
+        "Percentage_of_goals": 2.1747805267358338
+    },
+    {
+        "Season": 1997,
+        "Games_Played": 185,
+        "Goals": 4830,
+        "Ave_goals": 26.10810810810811,
+        "Most Goals": "Tony Modra",
+        "GK_Team": "AD",
+        "Goals_Kicked": 84,
+        "Percentage_of_goals": 1.7391304347826086
+    },
+    {
+        "Season": 1996,
+        "Games_Played": 185,
+        "Goals": 5073,
+        "Ave_goals": 27.42162162162162,
+        "Most Goals": "Tony Lockett",
+        "GK_Team": "SY",
+        "Goals_Kicked": 121,
+        "Percentage_of_goals": 2.385176424206584
+    },
+    {
+        "Season": 1995,
+        "Games_Played": 185,
+        "Goals": 5055,
+        "Ave_goals": 27.324324324324326,
+        "Most Goals": "Gary Ablett",
+        "GK_Team": "GE",
+        "Goals_Kicked": 122,
+        "Percentage_of_goals": 2.4134520276953517
+    },
+    {
+        "Season": 1994,
+        "Games_Played": 174,
+        "Goals": 4761,
+        "Ave_goals": 27.36206896551724,
+        "Most Goals": "Gary Ablett",
+        "GK_Team": "GE",
+        "Goals_Kicked": 129,
+        "Percentage_of_goals": 2.7095148078134845
+    },
+    {
+        "Season": 1993,
+        "Games_Played": 157,
+        "Goals": 4782,
+        "Ave_goals": 30.45859872611465,
+        "Most Goals": "Tony Modra",
+        "GK_Team": "AD",
+        "Goals_Kicked": 129,
+        "Percentage_of_goals": 2.6976160602258465
+    },
+    {
+        "Season": 1992,
+        "Games_Played": 172,
+        "Goals": 5180,
+        "Ave_goals": 30.11627906976744,
+        "Most Goals": "Jason Dunstall",
+        "GK_Team": "HW",
+        "Goals_Kicked": 145,
+        "Percentage_of_goals": 2.7992277992277987
+    },
+    {
+        "Season": 1991,
+        "Games_Played": 172,
+        "Goals": 5090,
+        "Ave_goals": 29.59302325581395,
+        "Most Goals": "Tony Lockett",
+        "GK_Team": "SK",
+        "Goals_Kicked": 127,
+        "Percentage_of_goals": 2.495088408644401
+    },
+    {
+        "Season": 1990,
+        "Games_Played": 161,
+        "Goals": 4614,
+        "Ave_goals": 28.658385093167702,
+        "Most Goals": "John Longmire",
+        "GK_Team": "NM",
+        "Goals_Kicked": 98,
+        "Percentage_of_goals": 2.1239705244906806
+    }
+]

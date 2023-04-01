@@ -1,0 +1,332 @@
+[
+    {
+        "Season": 2022,
+        "Total_Disposals": 148676,
+        "Teams": 18,
+        "Ave_disposals": 8259.777777777777,
+        "Most Disposals": "Clayton Oliver",
+        "D_Team": "ME",
+        "Disposals": 753,
+        "%_of_disposals": 0.5064704458016088
+    },
+    {
+        "Season": 2021,
+        "Total_Disposals": 151219,
+        "Teams": 18,
+        "Ave_disposals": 8401.055555555555,
+        "Most Disposals": "Jack Macrae",
+        "D_Team": "WB",
+        "Disposals": 880,
+        "%_of_disposals": 0.5819374549494442
+    },
+    {
+        "Season": 2020,
+        "Total_Disposals": 95827,
+        "Teams": 18,
+        "Ave_disposals": 5323.722222222223,
+        "Most Disposals": "Lachie Neale",
+        "D_Team": "BL",
+        "Disposals": 511,
+        "%_of_disposals": 0.5332526323478769
+    },
+    {
+        "Season": 2019,
+        "Total_Disposals": 153478,
+        "Teams": 18,
+        "Ave_disposals": 8526.555555555555,
+        "Most Disposals": "Adam Treloar",
+        "D_Team": "CW",
+        "Disposals": 789,
+        "%_of_disposals": 0.5140801939040123
+    },
+    {
+        "Season": 2018,
+        "Total_Disposals": 154723,
+        "Teams": 18,
+        "Ave_disposals": 8595.722222222223,
+        "Most Disposals": "Tom Mitchell",
+        "D_Team": "HW",
+        "Disposals": 848,
+        "%_of_disposals": 0.548076239473123
+    },
+    {
+        "Season": 2017,
+        "Total_Disposals": 158226,
+        "Teams": 18,
+        "Ave_disposals": 8790.333333333334,
+        "Most Disposals": "Matt Crouch",
+        "D_Team": "AD",
+        "Disposals": 825,
+        "%_of_disposals": 0.5214060900231314
+    },
+    {
+        "Season": 2016,
+        "Total_Disposals": 155435,
+        "Teams": 18,
+        "Ave_disposals": 8635.277777777777,
+        "Most Disposals": "Dan Hannebery",
+        "D_Team": "SY",
+        "Disposals": 802,
+        "%_of_disposals": 0.5159713063338373
+    },
+    {
+        "Season": 2015,
+        "Total_Disposals": 149824,
+        "Teams": 18,
+        "Ave_disposals": 8323.555555555555,
+        "Most Disposals": "Sam Mitchell",
+        "D_Team": "HW",
+        "Disposals": 748,
+        "%_of_disposals": 0.4992524562152926
+    },
+    {
+        "Season": 2014,
+        "Total_Disposals": 150145,
+        "Teams": 18,
+        "Ave_disposals": 8341.388888888889,
+        "Most Disposals": "Jordan Lewis",
+        "D_Team": "HW",
+        "Disposals": 668,
+        "%_of_disposals": 0.44490326018182413
+    },
+    {
+        "Season": 2013,
+        "Total_Disposals": 148470,
+        "Teams": 18,
+        "Ave_disposals": 8248.333333333334,
+        "Most Disposals": "Dane Swan",
+        "D_Team": "CW",
+        "Disposals": 717,
+        "%_of_disposals": 0.4829258436047686
+    },
+    {
+        "Season": 2012,
+        "Total_Disposals": 147791,
+        "Teams": 18,
+        "Ave_disposals": 8210.611111111111,
+        "Most Disposals": "Dayne Beams",
+        "D_Team": "CW",
+        "Disposals": 741,
+        "%_of_disposals": 0.5013837107807647
+    },
+    {
+        "Season": 2011,
+        "Total_Disposals": 140916,
+        "Teams": 17,
+        "Ave_disposals": 8289.176470588236,
+        "Most Disposals": "Dane Swan",
+        "D_Team": "CW",
+        "Disposals": 760,
+        "%_of_disposals": 0.5393283942206705
+    },
+    {
+        "Season": 2010,
+        "Total_Disposals": 137473,
+        "Teams": 16,
+        "Ave_disposals": 8592.0625,
+        "Most Disposals": "Dane Swan",
+        "D_Team": "CW",
+        "Disposals": 820,
+        "%_of_disposals": 0.5964807634953773
+    },
+    {
+        "Season": 2009,
+        "Total_Disposals": 138358,
+        "Teams": 16,
+        "Ave_disposals": 8647.375,
+        "Most Disposals": "Dane Swan",
+        "D_Team": "CW",
+        "Disposals": 769,
+        "%_of_disposals": 0.5558045071481229
+    },
+    {
+        "Season": 2008,
+        "Total_Disposals": 131320,
+        "Teams": 16,
+        "Ave_disposals": 8207.5,
+        "Most Disposals": "Joel Corey",
+        "D_Team": "GE",
+        "Disposals": 730,
+        "%_of_disposals": 0.5558939993908011
+    },
+    {
+        "Season": 2007,
+        "Total_Disposals": 127667,
+        "Teams": 16,
+        "Ave_disposals": 7979.1875,
+        "Most Disposals": "Kane Cornes",
+        "D_Team": "PA",
+        "Disposals": 696,
+        "%_of_disposals": 0.5451682893778345
+    },
+    {
+        "Season": 2006,
+        "Total_Disposals": 125419,
+        "Teams": 16,
+        "Ave_disposals": 7838.6875,
+        "Most Disposals": "Scott West",
+        "D_Team": "WB",
+        "Disposals": 708,
+        "%_of_disposals": 0.5645077699551104
+    },
+    {
+        "Season": 2005,
+        "Total_Disposals": 114576,
+        "Teams": 16,
+        "Ave_disposals": 7161.0,
+        "Most Disposals": "Scott West",
+        "D_Team": "WB",
+        "Disposals": 637,
+        "%_of_disposals": 0.5559628543499512
+    },
+    {
+        "Season": 2004,
+        "Total_Disposals": 108076,
+        "Teams": 16,
+        "Ave_disposals": 6754.75,
+        "Most Disposals": "Nigel Lappin",
+        "D_Team": "BL",
+        "Disposals": 630,
+        "%_of_disposals": 0.5829231281690662
+    },
+    {
+        "Season": 2003,
+        "Total_Disposals": 108920,
+        "Teams": 16,
+        "Ave_disposals": 6807.5,
+        "Most Disposals": "Nathan Buckley",
+        "D_Team": "CW",
+        "Disposals": 650,
+        "%_of_disposals": 0.5967682702901212
+    },
+    {
+        "Season": 2002,
+        "Total_Disposals": 108647,
+        "Teams": 16,
+        "Ave_disposals": 6790.4375,
+        "Most Disposals": "Simon Black",
+        "D_Team": "BL",
+        "Disposals": 582,
+        "%_of_disposals": 0.5356797702651707
+    },
+    {
+        "Season": 2001,
+        "Total_Disposals": 111358,
+        "Teams": 16,
+        "Ave_disposals": 6959.875,
+        "Most Disposals": "Simon Black",
+        "D_Team": "BL",
+        "Disposals": 622,
+        "%_of_disposals": 0.5585588821638321
+    },
+    {
+        "Season": 2000,
+        "Total_Disposals": 115518,
+        "Teams": 16,
+        "Ave_disposals": 7219.875,
+        "Most Disposals": "Brett Ratten",
+        "D_Team": "CA",
+        "Disposals": 695,
+        "%_of_disposals": 0.6016378399903046
+    },
+    {
+        "Season": 1999,
+        "Total_Disposals": 111406,
+        "Teams": 16,
+        "Ave_disposals": 6962.875,
+        "Most Disposals": "Brett Ratten",
+        "D_Team": "CA",
+        "Disposals": 670,
+        "%_of_disposals": 0.6014038741180906
+    },
+    {
+        "Season": 1998,
+        "Total_Disposals": 110796,
+        "Teams": 16,
+        "Ave_disposals": 6924.75,
+        "Most Disposals": "Robert Harvey",
+        "D_Team": "SK",
+        "Disposals": 735,
+        "%_of_disposals": 0.6633813495072024
+    },
+    {
+        "Season": 1997,
+        "Total_Disposals": 107645,
+        "Teams": 16,
+        "Ave_disposals": 6727.8125,
+        "Most Disposals": "Robert Harvey",
+        "D_Team": "SK",
+        "Disposals": 756,
+        "%_of_disposals": 0.7023085140972641
+    },
+    {
+        "Season": 1996,
+        "Total_Disposals": 109578,
+        "Teams": 16,
+        "Ave_disposals": 6848.625,
+        "Most Disposals": "Robert Harvey",
+        "D_Team": "SK",
+        "Disposals": 597,
+        "%_of_disposals": 0.5448173903520779
+    },
+    {
+        "Season": 1995,
+        "Total_Disposals": 107490,
+        "Teams": 16,
+        "Ave_disposals": 6718.125,
+        "Most Disposals": "Liam Pickering",
+        "D_Team": "GE",
+        "Disposals": 629,
+        "%_of_disposals": 0.5851707135547493
+    },
+    {
+        "Season": 1994,
+        "Total_Disposals": 102729,
+        "Teams": 15,
+        "Ave_disposals": 6848.6,
+        "Most Disposals": "Greg Williams",
+        "D_Team": "CA",
+        "Disposals": 642,
+        "%_of_disposals": 0.6249452442835032
+    },
+    {
+        "Season": 1993,
+        "Total_Disposals": 98286,
+        "Teams": 15,
+        "Ave_disposals": 6552.4,
+        "Most Disposals": "Greg Williams",
+        "D_Team": "CA",
+        "Disposals": 664,
+        "%_of_disposals": 0.6755794314551411
+    },
+    {
+        "Season": 1992,
+        "Total_Disposals": 107710,
+        "Teams": 15,
+        "Ave_disposals": 7180.666666666668,
+        "Most Disposals": "Chris McDermott",
+        "D_Team": "AD",
+        "Disposals": 720,
+        "%_of_disposals": 0.6684616098783771
+    },
+    {
+        "Season": 1991,
+        "Total_Disposals": 111109,
+        "Teams": 15,
+        "Ave_disposals": 7407.266666666666,
+        "Most Disposals": "Barry Mitchell",
+        "D_Team": "SY",
+        "Disposals": 689,
+        "%_of_disposals": 0.6201117821238604
+    },
+    {
+        "Season": 1990,
+        "Total_Disposals": 100418,
+        "Teams": 14,
+        "Ave_disposals": 7172.714285714284,
+        "Most Disposals": "Tony Shaw",
+        "D_Team": "CW",
+        "Disposals": 736,
+        "%_of_disposals": 0.7329363261566652
+    }
+]
