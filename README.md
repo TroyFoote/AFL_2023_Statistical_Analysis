@@ -11,8 +11,10 @@ Troy Foote
 ### Requirements
 
 * Python
+* Pandas
 * Flask
 * Json
+* MongoDB
 * JavaScript
 
 ### Questions to be answered.
