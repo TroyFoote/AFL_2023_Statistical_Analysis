@@ -35,7 +35,6 @@ def Disposals():
     Query = {}
     Fields = {'_id':0,'Season':1,'Total_Disposals':1,'Teams':1,'Ave_disposals':1,'Most Disposals':1,'%_of_disposals':1}
     Results = list(AFL_Season_Disposals.find(Query, Fields))
-    print(Results)
     response = make_response(jsonify(Results))
     response.headers['Access-Control-Allow-Origin'] = '*'
     return response
