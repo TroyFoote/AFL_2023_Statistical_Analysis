@@ -15,13 +15,13 @@
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
         <h1>AFL Season Analysis 1990 - 2022 Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
+        <p>Use the dropdown menu below to explore the dataset</p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-2">
         <div class="well">
-          <h5>Year.:</h5>
+          <h5>Season.:</h5>
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
         <div class="panel panel-primary">
@@ -49,7 +49,22 @@
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="app.js"></script>
   
-  
+<!-- <br/><br/>
+<strong>Season:</strong>{{ Season }}<br/>
+<strong>Teams:</strong>{{ Teams }}<br/>
+<strong>Total Disposals Season:</strong>{{ Total_Disposals }}<br/>
+<strong>Average Disposals Season:</strong>{{ Ave_disposals }}<br/>
+<strong>Most Disposals Player:</strong>{{ Most_Disposals }}<br/>
+<strong>Total Disposals Player:</strong>{{ Disposals }}<br/>
+
+<br/>
+<strong>Season:</strong>{{ Season }}<br/>
+<strong>Total Games Played:</strong>{{ Games_Played }}<br/>
+<strong>Total Goals Season:</strong>{{ Goals }}<br/>
+<strong>Average Goals Season:</strong>{{ Ave_goals }}<br/>
+<strong>Most Goals Player:</strong>{{ Most Goals }}<br/>
+<strong>Total Goals Player:</strong>{{ Goals_Kicked }}<br/> -->
+
 </body>
 
 </html>

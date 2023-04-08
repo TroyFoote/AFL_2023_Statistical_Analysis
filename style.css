@@ -1,12 +1,36 @@
 body {
     font-family: "Raleway";
-    font-size: 1.5em;
+    font-size: 1.2em;
     
-  }
+} 
+
+h1 {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;   
+}
+    
+h3 {
+    background-color: #f4f4f4;
+    color: red;
+}    
+    
+h5 {
+  background-color: #f4f4f4;
+  color: red;
   
-  #map,
-  body,
-  html {
-    height: 100%;
-  }
+} 
+
+div {
+    color: black;
+    background: #f4f4f4; 
+     
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
   
