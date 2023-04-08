@@ -77,6 +77,8 @@ Produce a chart showing the total number of goals scored by the Competitions lea
 
 ### Resources
 All data originally sourced from :- https://afltables.com/afl/afl_index.html
+Bob's Programming Academy :- https://www.youtube.com/watch?v=ewN4_mcaI84
+
 
 
 

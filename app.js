@@ -1,13 +1,15 @@
+const DISPOSALS_URL = 'http://127.0.0.1:5000/api/v1.0/Disposals';
+const AVG_DISPOSALS_URL = 'http://127.0.0.1:5000/api/v1.0/avg_disposals';
 
 function init() {
   
  // Create dropdown menu
   let dropdownMenu = d3.select("#selDataset");
-  d3.json('http://127.0.0.1:5000/api/v1.0/Disposals').then(function(data) {  
+  d3.json(DISPOSALS_URL).then(function(data) {  
 
     // Sort data
     let subject_ids = data.map(x=>x.Season).sort((f,s)=>f-s);
-    console.log(subject_ids)
+    // console.log(subject_ids)
    
     function addOption(subject_id) { 
       dropdownMenu.append("option")
@@ -30,5 +32,130 @@ function linechart(){
   
 }  
 
-init()
 
+
+// Disposals Chart
+var disposalChartOptions = {
+  // series: [{
+  //   name: "Disposals",
+  //   data: ['http://127.0.0.1:5000/api/v1.0/Disposals'],
+  // }],
+  series: [],
+  
+  chart: {
+    type: "line",
+    background: "transparent",
+    height: 350,
+    stacked: false,
+    toolbar: {
+      show: false,
+    },
+  },
+
+  noData: {
+    text: 'Loading...',
+    style: {
+      color: 'white', 
+      fontSize: '22px'}
+  },
+  
+  colors: ["#00ab57", "#d50000"],
+  labels: ["Seasons"],
+  dataLabels: {
+    enabled: false,
+  },
+  fill: {
+    gradient: {
+      opacityFrom: 0.4,
+      opacityTo: 0.1,
+      shadeIntensity: 1,
+      stops: [0, 100],
+      type: "vertical",
+    },
+    type: "gradient",
+  },
+  grid: {
+    borderColor: "#55596e",
+    yaxis: {
+      lines: {
+        show: true,
+      },
+    },
+    xaxis: {
+      lines: {
+        show: true,
+      },
+    },
+  },
+  legend: {
+    labels: {
+      colors: "#f5f7ff",
+    },
+    show: true,
+    position: "top",
+  },
+  markers: {
+    size: 6,
+    strokeColors: "#1b2635",
+    strokeWidth: 3,
+  },
+  stroke: {
+    curve: "smooth",
+  },
+  xaxis: {
+    axisBorder: {
+      color: "#55596e",
+      show: true,
+    },
+    axisTicks: {
+      color: "#55596e",
+      show: true,
+    },
+    labels: {
+      offsetY: 5,
+      style: {
+        colors: "#f5f7ff",
+      },
+    },
+  },
+  yaxis: 
+  [
+    {
+      title: {
+        text: "Disposals",
+        style: {
+          color: "#f5f7ff",
+        },
+      },
+      labels: {
+        style: {
+          colors: ["#f5f7ff"],
+        },
+      },
+    },
+  ],
+  tooltip: {
+    shared: true,
+    intersect: false,
+    theme: "dark",
+  }
+};
+
+function avg_disposal_transform(row) {
+  return {x: row.Season, y: row.Ave_disposals };
+}
+
+
+var disposalChart = new ApexCharts(document.querySelector("#disposal-chart"), disposalChartOptions);
+disposalChart.render();
+console.log ('initial rendering complete')
+d3.json(AVG_DISPOSALS_URL).then(function(data) {
+  console.log('chart data loaded');
+  let seriesData = data.map(avg_disposal_transform);
+  console.log(seriesData);
+  disposalChart.updateSeries([{
+    name: 'Avg Disposals',
+    data: seriesData
+  }]);
+});  
+init()

@@ -25,9 +25,10 @@ def home():
     """List all available API routes."""
     print("Server received request for home page")
     return (
-        f"Available Routes<br/>"
-        f"/api/v1.0/Disposals<br/>"
-        f"/api/v1.0/Goals<br/>"
+        "Available Routes<br/>"
+        "/api/v1.0/Disposals<br/>"
+        "/api/v1.0/Goals<br/>"
+        "/api/v1.0/avg_disposals<br/>"
     )
 
 @app.route("/api/v1.0/Disposals")
@@ -49,7 +50,14 @@ def Goals():
     response.headers['Access-Control-Allow-Origin'] = '*'
     return response    
 
-
+@app.route("/api/v1.0/avg_disposals")
+def avg_disposals():
+    Query = {}
+    Fields = {'_id':0,'Season':1,'Ave_disposals':1}
+    Results = list(AFL_Season_Disposals.find(Query, Fields))
+    response = make_response(jsonify(Results))
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    return response
 
 
 if __name__ == "__main__":
