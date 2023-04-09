@@ -16,22 +16,9 @@ function init() {
         .attr("value", subject_id)
         .text(subject_id);
     }
-    
-    subject_ids.forEach(addOption);
-    
+    subject_ids.forEach(addOption);  
   })
 }
-
-function optionChanged(subject_id){
-    barchart(subject_id);
-    linechart(subject_id);}
-function barchart(){
-
-}
-function linechart(){
-  
-}  
-
 
 // Disposals Chart
 var disposalChartOptions = {
@@ -83,13 +70,6 @@ var disposalChartOptions = {
       },
     },
   },
-  // legend: {
-  //   labels: {
-  //     colors: "#ff0000",
-  //   },
-  //   show: true,
-  //   position: "top",
-  // },
   markers: {
     size: 6,
     strokeColors: "#1b2635",
@@ -131,28 +111,22 @@ var disposalChartOptions = {
         },
       },
     },
-  ],
-  // tooltip: {
-  //   shared: true,
-  //   intersect: false,
-  //   theme: "light",
-  // }
+  ], 
 };
 
 function avg_disposal(row) {
-  return {x: row.Season, y: row.Ave_disposals };
+  return {x: row.Season, y: row.Ave_disposals }; 
 }
-
-
-
 var disposalChart = new ApexCharts(document.querySelector("#disposal-chart"), disposalChartOptions);
 disposalChart.render();
 console.log ('initial rendering complete')
 d3.json(AVG_DISPOSALS_URL).then(function(data) {
+  
   // console.log('chart data loaded');
   let seriesData = data.map(avg_disposal);
 
   // console.log(seriesData);
+  let sortedData = data.sort((a, b) => a.season - b.season);
   disposalChart.updateSeries([{
     name: 'Avg Disposals',
     data: seriesData
@@ -273,6 +247,31 @@ d3.json(AVG_DISPOSALS_URL).then(function(data) {
 //     data: seriesData
 //   }]);
 // });  
+
+
+// function optionChanged(subject_id){
+//     barchart(subject_id);
+//     linechart(subject_id);}
+// function barchart(){
+
+// }
+// function linechart(){
+  
+// }  
+
+// legend: {
+  //   labels: {
+  //     colors: "#ff0000",
+  //   },
+  //   show: true,
+  //   position: "top",
+  // },
+
+ // tooltip: {
+  //   shared: true,
+  //   intersect: false,
+  //   theme: "light",
+  // }
 
 
 
