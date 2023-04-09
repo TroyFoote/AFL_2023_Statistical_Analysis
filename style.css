@@ -11,18 +11,18 @@ h1 {
 }
     
 h3 {
-    background-color: #263043;
-    color: whitesmoke;
+    background: color ffffcc;
+    color: black;
 }    
     
 h5 {
-    background-color: #263043;
-    color: whitesmoke;
+    background-color: wheat;
+    color: black;
 } 
 
 div {
-    color: whitesmoke;
-    background: #263043;     
+    color: black;
+    background: wheat;     
 }
 
 #map,
