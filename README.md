@@ -18,6 +18,7 @@ Troy Foote
 * JavaScript
 * HTML
 * CSS
+* ApexCharts
 
 
 ### Questions to be answered.
@@ -76,7 +77,7 @@ Produce a chart showing the total number of goals scored by the Competitions lea
 <br>
 
 ### Resources
-All data originally sourced from :- https://afltables.com/afl/afl_index.html
+All data originally sourced from :- https://afltables.com/afl/afl_index.html<br>
 Bob's Programming Academy :- https://www.youtube.com/watch?v=ewN4_mcaI84
 
 

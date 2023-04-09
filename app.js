@@ -143,13 +143,15 @@ function avg_disposal(row) {
   return {x: row.Season, y: row.Ave_disposals };
 }
 
+
+
 var disposalChart = new ApexCharts(document.querySelector("#disposal-chart"), disposalChartOptions);
 disposalChart.render();
 console.log ('initial rendering complete')
 d3.json(AVG_DISPOSALS_URL).then(function(data) {
   // console.log('chart data loaded');
   let seriesData = data.map(avg_disposal);
-  
+
   // console.log(seriesData);
   disposalChart.updateSeries([{
     name: 'Avg Disposals',
