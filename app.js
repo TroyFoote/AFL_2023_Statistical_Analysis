@@ -1,26 +1,34 @@
+
 const DISPOSALS_URL = 'http://127.0.0.1:5000/api/v1.0/Disposals';
 const AVG_DISPOSALS_URL = 'http://127.0.0.1:5000/api/v1.0/avg_disposals';
 const AVG_GOALS_URL = 'http://127.0.0.1:5000/api/v1.0/avg_goals';
 
-function init() {
-  
- // Create dropdown menu
-  let dropdownMenu = d3.select("#selDataset");
-  d3.json(DISPOSALS_URL).then(function(data) {  
+Promise.all([
+    d3.json(DISPOSALS_URL),
+    d3.json(AVG_DISPOSALS_URL),
+    d3.json(AVG_GOALS_URL)
+]).then(function([disposalsData, avg_disposalsData, avg_goalsData]){
 
-    // Sort data
-    let subject_ids = data.map(x=>x.Season).sort((f,s)=>f-s);
+let sortedData = avg_disposalsData.sort((a, b) => a.Season - b.Season);
+  console.log(sortedData);
+let seasons = sortedData.map(x=>x.Season);
+let avg_disposals = sortedData.map(x=>x.ave_disposals);
+
+let dropdownMenu = d3.select("#selDataset");
+// Sort data
+let subject_ids = seasons;
      
-    function addOption(subject_id) { 
-      dropdownMenu.append("option")
-        .attr("value", subject_id)
-        .text(subject_id);
-    }
-    subject_ids.forEach(addOption);  
-  })
+function addOption(subject_id) { 
+  dropdownMenu.append("option")
+    .attr("value", subject_id)
+    .text(subject_id);
 }
+subject_ids.forEach(addOption);  
+    
+})
 
 // Disposals Chart
+
 var disposalChartOptions = {
  
   series: [],
@@ -114,10 +122,10 @@ var disposalChartOptions = {
   ], 
 };
 
-function avg_disposal(row) {
-  return {x: row.Season, y: row.Ave_disposals }; 
+function avg_disposal(sortedData) {
+  return {x: sortedData.Season, y: sortedData.Ave_disposals }; 
 }
-var disposalChart = new ApexCharts(document.querySelector("#disposal-chart"), disposalChartOptions);
+var disposalChart = new ApexCharts(document.querySelector("#avg_disposal-chart"), disposalChartOptions);
 disposalChart.render();
 console.log ('initial rendering complete')
 d3.json(AVG_DISPOSALS_URL).then(function(data) {
@@ -126,16 +134,21 @@ d3.json(AVG_DISPOSALS_URL).then(function(data) {
   let seriesData = data.map(avg_disposal);
 
   // console.log(seriesData);
-  let sortedData = data.sort((a, b) => a.season - b.season);
-  disposalChart.updateSeries([{
+   disposalChart.updateSeries([{
     name: 'Avg Disposals',
     data: seriesData
   }]);
 });  
 
+// Goals chart
+
+// let sortData = avg_goalsData.sort((a, b) => a.Season - b.Season);
+//   console.log(sortData);
+// let seasons = sortData.map(x=>x.Season);
+// let avg_disposals = sortData.map(x=>x.ave_goals);
 
 
-// // Goals Chart
+
 // var goalChartOptions = {
  
 //   series: [],
@@ -185,7 +198,6 @@ d3.json(AVG_DISPOSALS_URL).then(function(data) {
 //       },
 //     },
 //   },
- 
 //   markers: {
 //     size: 6,
 //     strokeColors: "#1b2635",
@@ -214,7 +226,7 @@ d3.json(AVG_DISPOSALS_URL).then(function(data) {
 //   [
 //     {
 //       title: {
-//         text: "Goals",
+//         text: "Disposals",
 //         style: {
 //           fontSize:  '20px',
 //           color: "#000000",
@@ -227,54 +239,23 @@ d3.json(AVG_DISPOSALS_URL).then(function(data) {
 //         },
 //       },
 //     },
-//   ],
-
+//   ], 
 // };
 
-// function avg_goals(row) {
-//   return {x: row.Season, y: row.Ave_goals };
+// function avg_goals(sortData) {
+//   return {x: sortData.Season, y: sortData.Ave_goals }; 
 // }
-
-// var goalChart = new ApexCharts(document.querySelector("#goal-chart"), goalChartOptions);
+// var goalChart = new ApexCharts(document.querySelector("#avg_goals-chart"), goalChartOptions);
 // goalChart.render();
 // console.log ('initial rendering complete')
 // d3.json(AVG_GOALS_URL).then(function(data) {
-//   console.log('chart data loaded');
+  
+//   // console.log('chart data loaded');
 //   let seriesData = data.map(avg_goals);
-//   console.log(seriesData);
-//   disposalChart.updateSeries([{
+
+//   // console.log(seriesData);
+//    goalChart.updateSeries([{
 //     name: 'Avg Goals',
 //     data: seriesData
 //   }]);
 // });  
-
-
-// function optionChanged(subject_id){
-//     barchart(subject_id);
-//     linechart(subject_id);}
-// function barchart(){
-
-// }
-// function linechart(){
-  
-// }  
-
-// legend: {
-  //   labels: {
-  //     colors: "#ff0000",
-  //   },
-  //   show: true,
-  //   position: "top",
-  // },
-
- // tooltip: {
-  //   shared: true,
-  //   intersect: false,
-  //   theme: "light",
-  // }
-
-
-
-
-
-init()
