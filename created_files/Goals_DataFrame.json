@@ -1,15 +1,5 @@
 [
     {
-        "Season": 2023,
-        "Games_Played": 18,
-        "Goals": 449,
-        "Ave_goals_per_season": 24.9,
-        "Most Goals": "Nick Larkey",
-        "GK_Team": "NM",
-        "Goals_Kicked": 10,
-        "Percentage_of_goals": 2.2271714922049
-    },
-    {
         "Season": 2022,
         "Games_Played": 207,
         "Goals": 5003,

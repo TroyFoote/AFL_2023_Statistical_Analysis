@@ -30,6 +30,7 @@ def home():
         "/api/v1.0/Goals<br/>"
         "/api/v1.0/avg_disposals<br/>"
         "/api/v1.0/avg_goals<br/>"
+        "/api/v1.0/goal_kickers<br/>"
     )
 
 @app.route("/api/v1.0/Disposals")
@@ -64,6 +65,15 @@ def avg_disposals():
 def avg_goals():
     Query = {}
     Fields = {'_id':0,'Season':1,'Ave_goals':1}
+    Results = list(AFL_Season_Goals.find(Query, Fields))
+    response = make_response(jsonify(Results))
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    return response
+
+@app.route("/api/v1.0/goal_kickers")
+def goal_kickers():
+    Query = {}
+    Fields = {'_id':0,'Season':1,'Goals_Kicked':1, 'Most Goals':1}
     Results = list(AFL_Season_Goals.find(Query, Fields))
     response = make_response(jsonify(Results))
     response.headers['Access-Control-Allow-Origin'] = '*'
