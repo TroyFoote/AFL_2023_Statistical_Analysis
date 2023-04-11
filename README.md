@@ -8,8 +8,9 @@ Analyse AFL season data (1990-2022) for disposals and goals. Determine if the nu
 ### Team Members
 Troy Foote
 
-### Requirements
+### Languages & Applications used
 
+* Excel CSV
 * Python
 * Pandas
 * Flask
