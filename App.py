@@ -46,7 +46,7 @@ def Disposals():
 @app.route("/api/v1.0/Goals")
 def Goals():
     Query = {}
-    Fields = {'_id':0,'Season':1,'Games_Played':1,'Goals':1,'Ave_goals':1,'Most Goals':1,'GK_Team':1,'Goals_Kicked':1,'Percentage_of_goals':1}
+    Fields = {'_id':0,'Season':1,'Games_Played':1,'Goals':1,'Ave_goals_per_season':1,'Most Goals':1,'GK_Team':1,'Goals_Kicked':1,'Percentage_of_goals':1}
     Results = list(AFL_Season_Goals.find(Query, Fields))
     response = make_response(jsonify(Results))
     response.headers['Access-Control-Allow-Origin'] = '*'
@@ -64,7 +64,7 @@ def avg_disposals():
 @app.route("/api/v1.0/avg_goals")
 def avg_goals():
     Query = {}
-    Fields = {'_id':0,'Season':1,'Ave_goals':1}
+    Fields = {'_id':0,'Season':1,'Ave_goals_per_season':1}
     Results = list(AFL_Season_Goals.find(Query, Fields))
     response = make_response(jsonify(Results))
     response.headers['Access-Control-Allow-Origin'] = '*'
