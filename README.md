@@ -26,7 +26,7 @@ Troy Foote
 #### 1. Has the game become a higher or lower disposal (faster or slower moving) game since the beginning of the AFL Competition in 1990?
 
 Produce a chart that shows the average number of disposals per team for each completed season of AFL Football. The higher the number of disposals will generally prove a slower moving game than if there are fewer disposals.
-
+<br>
 <br>
 ![My Image](created_files/Chart_Images/Ave_Disposals_Per_Season.png)
 <br>
@@ -34,7 +34,7 @@ Produce a chart that shows the average number of disposals per team for each com
 #### 2. Has the style of gameplay in Question 1 reduced or increased the number of goals being scored?
 
 Produce a chart that shows the average goals scored per game per completed season of AFL Football. Has there been an increase or decrease in the number of goals scored?
-
+<br>
 <br>
 ![My Image](created_files/Chart_Images/Ave_Goals_Per_Season.png)
 <br>
@@ -42,7 +42,7 @@ Produce a chart that shows the average goals scored per game per completed seaso
 #### 3. How has the role of the AFL Competitions leading goal kickers changed over time?
 
 Produce a chart showing the total number of goals scored by the Competitions leading goal kicker per completed season of AFL Football. Has the role of the Full Forward changed over the years?
-
+<br>
 <br>
 ![My Image](created_files/Chart_Images/Top_Goal_Kicker_Per_Season.png)
 <br>
